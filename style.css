@@ -204,7 +204,35 @@ header > a {
     justify-content: center;
 }
 
+.board {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    font-family: "NanumMyeongjo";
+    font-size: 1rem;
+    line-height: 1.3rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+}
+
+.page3_text {
+    margin: 1rem;
+}
+
+.first {
+    margin: 0 1rem 3rem 1rem;
+    line-height: 1.5rem;
+}
+
+.second {
+    margin: 3rem 1rem 0 1rem;
+    line-height: 1.5rem;
+}
 /*page3 end*/
 /*page4 start*/
 .page4 {
@@ -219,5 +247,38 @@ header > a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.page4_contact {
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+
+    line-height: 1.3rem;
+    background-color: rgba(231, 186, 186, 0.775);
+    color: rgb(255, 255, 255);
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+}
+
+.instagram, .github {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.page4_img {
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+}
+
+.page4_text {
+    font-family: "Abyssinica";
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
 }
 /*page4 end*/
